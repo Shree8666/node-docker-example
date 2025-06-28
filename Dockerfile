@@ -2,7 +2,7 @@ FROM node:18
 
 ENV HOME=/home/app
 
-RUN apt-get update && apt-get install -y htop --no-install-recommends && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y htop --no-install-recommends
 
 COPY package.json package-lock.json $HOME/node_docker/
 
