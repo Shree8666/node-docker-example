@@ -11,4 +11,5 @@ services:
     depends_on:
       - mongodb
   mongodb:
-    image: mongo:3.2.5
+    image: mongo:6
+
