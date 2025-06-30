@@ -4,8 +4,8 @@
       "enabled": "CLUSTER_ENABLED"
     },
     "database": {
-      "url": "DATABASE_URL",
-      "port": "DATABASE_PORT",
+      "url": "172.29.0.2",
+      "port": "27017",
       "dbName": "DATABASE_NAME"
     },
     "port": "APP_PORT"
